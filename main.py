@@ -1,24 +1,25 @@
-# Student name
-# Current date
+# PJ VanDussen
+# 9/13/2024
 # String & Numeric Input 
 
 # Task 1
-# Comment
-# Comment
+first_name = input("Enter your name ")
+print('Hi,'+ first_name + '!' + ' Welcome to Web and App Development' )
 
 
 
 
 # Task 2
-# Comment
-# Comment
+age = input('What is your age? ' )
 
+age = int(age)
+print('I am ' + str(age))
 
 
 
 # Task 3
-# Comment
-# Comment
+family = int(input('How many people are in your family?'))
+print('You have, ' + Str(family ))4
 
 
 
