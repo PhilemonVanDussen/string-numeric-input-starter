@@ -18,16 +18,18 @@ print('I am ' + str(age))
 
 
 # Task 3
-family = int(input('How many people are in your family?'))
-print('You have, ' + Str(family ))4
+family = int(input('How many people are in your family? '))
+message = f'You have {family} people in your family.'
+print(message)
 
 
 
 
 # Task 4
-# Comment
-# Comment
-
+height = float(input('Enter your height in inches '))
+CONVERSION_FACTOR = 2.54
+centimeters = height * CONVERSION_FACTOR
+print(f'You are ' + str(height) + ' inches tall and ' + str(centimeters) + ' centimeters tall.')
 
 
 
